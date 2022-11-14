@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+}
+
+
+.list__item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: blueviolet;
+
+}
+
+
+#list-item{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:small;
+    color: red;
+
+}
+
+
+
+ul, ol{
+    margin-left: -4em;
+    padding: 2em;
+    line-height: 2.5em;
+   
+
+}
+.my__likes,.my__dislikes{
+  font-weight: 700;
+}
+
+#my__likes, #my__dislikes{
+    font-weight: 400;
+}
